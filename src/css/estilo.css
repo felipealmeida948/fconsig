@@ -200,7 +200,6 @@
             color: #429321; 
             text-align: center;
             margin: 5.5rem 0 1.5rem;
-            
         }
 
         .texto-h2{
@@ -251,6 +250,59 @@
             border: #fff;
             float: right;
         }
+
+        /*============================ Trabalhe conosco =====================*/
+        .trabalhe-conosco{
+            border: solid 2px #429321;
+            text-align: center;
+            margin: 3.5rem 2.5rem 2.5rem 2.5rem;
+            padding: -20px;
+            
+        }
         
+        .title-green-trabalhe-conosco{
+            font-family: OpenSans-Bold;
+            font-size: 1.5rem; 
+            color: #429321; 
+            text-align: center;
+            margin: 2.5rem 0 1.5rem;
+        }
+
+        .trabalhe-conosco-form{
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            padding: 20px;
+        }
+
+        .trabalhe-conosco-textarea textarea.form-control::placeholder {
+            font-weight: 300;
+            border: #417505;
+        }
+        .trabalhe-conosco-textarea textarea.form-control {
+            padding-left: 0.8rem;
+        }
         
+        .btn-trabalhe-conosco{
+            background: #429321; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            color: #ffffff;
+            width: 130px;
+
+            float: left;
+        }
+
+        .btn-trabalhe-conosco-img{
+            width: 30px;
+            height: 30px;
+            
+        }
+
+        .botoes-envio{
+            margin: 15px;
+          
+        }
 
