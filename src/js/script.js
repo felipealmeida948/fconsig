@@ -10,3 +10,6 @@ $(function(){
 		}
 	});
 });
+
+Var session = Flashphoner.createSession({urlServer:"wss://192.168.88.59:8443", flashProto:"rtmfp"});
+session.createStream({name:"rtsp://192.168.200.16/live.sdp", display:myVideo}).play();
